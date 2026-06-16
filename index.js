@@ -20,35 +20,65 @@ module.exports = {
     // avg_temperature_in_fahrenheit,
     // avg_temperature_in_celsius
 };
-const day1TempF = 32;
-const day2TempC = 25;
-const day3TempF = 70;
-const day4TempC = 18;
-const day5TempF = 80;
-const day6TempC = 15;
-const day7TempF = 72;
-const day8TempC = 28;
-const day9TempF = 68;
-const day10TempC = 20;
-const day11TempF = 75;
-const day12TempC = 23;
-const day13TempF = 82;
-const day14TempC = 30;
-const day15TempF = 65;
-const day16TempC = 22;
-const day17TempF = 77;
-const day18TempC = 26;
-const day19TempF = 78;
-const day20TempC = 24;
-const day21TempF = 73;
-const day22TempC = 21;
-const day23TempF = 79;
-const day24TempC = 27;
-const day25TempF = 71;
-const day26TempC = 19;
-const day27TempF = 74;
-const day28TempC = 17;
-const day29TempF = 76;
-const day30TempC = 29;
+const day1Temp = 32;
+const day2Temp = 25;
+const day3Temp = 70;
+const day4Temp = 18;
+const day5Temp = 80;
+const day6Temp = 15;
+const day7Temp = 72;
+const day8Temp = 28;
+const day9Temp = 68;
+const day10Temp = 20;
+const day11Temp = 75;
+const day12Temp = 23;
+const day13Temp = 82;
+const day14Temp = 30;
+const day15Temp = 65;
+const day16Temp = 22;
+const day17Temp = 77;
+const day18Temp = 26;
+const day19Temp = 78;
+const day20Temp = 24;
+const day21Temp = 73;
+const day22Temp = 21;
+const day23Temp = 79;
+const day24Temp = 27;
+const day25Temp = 71;
+const day26Temp = 19;
+const day27Temp = 74;
+const day28Temp = 17;
+const day29Temp = 76;
+const day30Temp = 29;
 
-  
+let tot_temperature_in_fahrenheit = 
+    day1Temp + 
+    (day2Temp * 9 / 5 + 32) + 
+    day3Temp + 
+    (day4Temp * 9 / 5 + 32) + 
+    day5Temp + 
+    (day6Temp * 9 / 5 + 32) + 
+    day7Temp + 
+    (day8Temp * 9 / 5 + 32) + 
+    day9Temp + 
+    (day10Temp * 9 / 5 + 32) + 
+    day11Temp + 
+    (day12Temp * 9 / 5 + 32) + 
+    day13Temp + 
+    (day14Temp * 9 / 5 + 32) + 
+    day15Temp + 
+    (day16Temp * 9 / 5 + 32) + 
+    day17Temp + 
+    (day18Temp * 9 / 5 + 32) + 
+    day19Temp + 
+    (day20Temp * 9 / 5 + 32) + 
+    day21Temp + 
+    (day22Temp * 9 / 5 + 32) + 
+    day23Temp + 
+    (day24Temp * 9 / 5 + 32) + 
+    day25Temp + 
+    (day26Temp * 9 / 5 + 32) + 
+    day27Temp + 
+    (day28Temp * 9 / 5 + 32) + 
+    day29Temp + 
+    (day30Temp * 9 / 5 + 32);
