@@ -82,3 +82,41 @@ let tot_temperature_in_fahrenheit =
     (day28Temp * 9 / 5 + 32) + 
     day29Temp + 
     (day30Temp * 9 / 5 + 32);
+
+    let tot_temperature_in_celsius = 
+    ((day1Temp - 32) * 5 / 9) +
+    day2Temp  + 
+    ((day3Temp - 32) * 5 / 9) +  
+    day4Temp +
+    ((day5Temp - 32) * 5 / 9) + 
+    day6Temp +
+    ((day7Temp - 32) * 5 / 9) +
+    day8Temp +
+    ((day9Temp - 32) * 5 / 9) +
+    day10Temp + 
+    ((day11Temp - 32) * 5 / 9) +
+    day12Temp +
+    ((day13Temp - 32) * 5 / 9) +
+    day14Temp + 
+    ((day15Temp  - 32) * 5 / 9) +
+    day16Temp +
+    ((day17Temp - 32) * 5 / 9) +
+    day18Temp +
+    ((day19Temp - 32) * 5 / 9) +
+    day20Temp + 
+    ((day21Temp - 32) * 5 / 9) +
+    day22Temp + 
+    ((day23Temp - 32) * 5 / 9) +
+    day24Temp + 
+    ((day25Temp - 32) * 5 / 9) +
+    day26Temp + 
+    ((day27Temp - 32) * 5 / 9)  +
+    day28Temp + 
+    ((day29Temp - 32) * 5 / 9) +
+    day30Temp;
+    
+    avg_temperature_in_fahrenheit = tot_temperature_in_fahrenheit / 30;
+    avg_temperature_in_celsius = tot_temperature_in_celsius / 30;
+
+    console.log(avg_temperature_in_celsius);
+    console.log(avg_temperature_in_fahrenheit);
