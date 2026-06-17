@@ -115,8 +115,8 @@ let tot_temperature_in_fahrenheit =
     ((day29Temp - 32) * 5 / 9) +
     day30Temp;
     
-    avg_temperature_in_fahrenheit = tot_temperature_in_fahrenheit / 30;
-    avg_temperature_in_celsius = tot_temperature_in_celsius / 30;
+    let avg_temperature_in_fahrenheit = tot_temperature_in_fahrenheit / 30;
+    let avg_temperature_in_celsius = tot_temperature_in_celsius / 30;
 
     console.log(avg_temperature_in_celsius);
     console.log(avg_temperature_in_fahrenheit);
